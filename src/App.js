@@ -12,7 +12,7 @@ function App() {
       <div className="Container1" onClick={onClick1}>
         <div className="Inside-Container1">
           How doues Parknameseperate
-          <small className={showText ? "rotated1" : ""}>
+          <small className={showText ? "rotated1" : "rotate1"}>
             <FiChevronLeft />
           </small>
         </div>
