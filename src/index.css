@@ -35,18 +35,17 @@
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 0.1px solid lightgrey;
 }
 .Container1,
 .Container2,
-.Container3,
-.Container4 {
+.Container3 {
   
   border-bottom: 1px solid lightgrey;
 }
 .Inside-Container4, .Inside-Container3, .Inside-Container2, .Inside-Container1 {
   justify-content: space-between;
   padding-bottom: 10px;
+  display: flex;
   padding-top: 10px;
 }
 .rotated {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FiChevronDown, FiChevronLeft } from "react-icons/fi";
+import { FiChevronDown, FiChevronRight } from "react-icons/fi";
 import { AiOutlineUser } from "react-icons/ai";
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
       <div className="Container1" onClick={onClick1}>
         <div className="Inside-Container1">
           How doues Parknameseperate
-          <small className={showText ? "rotated1" : "rotate1"}>
-            <FiChevronLeft />
+          <small className={showText1 ? "rotated1" : "rotate1"}>
+            <FiChevronRight/>
           </small>
         </div>
         {showText1 ? <Text1 /> : null}
@@ -21,8 +21,8 @@ function App() {
       <div className="Container2" onClick={onClick2}>
         <div className="Inside-Container2">
           Is Parkname Parking actually free ?
-          <small>
-            <FiChevronLeft />
+          <small className={showText2 ? "rotated1" : "rotate1"}>
+            <FiChevronRight />
           </small>
         </div>
         {showText2 ? <Text2 /> : null}
@@ -30,8 +30,8 @@ function App() {
       <div className="Container3" onClick={onClick3}>
         <div className="Inside-Container3">
           What you do?
-          <small>
-            <FiChevronLeft />
+          <small className={showText3 ? "rotated1" : "rotate1"}>
+            <FiChevronRight/>
           </small>
         </div>
         {showText3 ? <Text3 /> : null}
@@ -39,8 +39,8 @@ function App() {
       <div className="Container4" onClick={onClick4}>
         <div className="Inside-Container4">
           When was Parkname first founded?
-          <small>
-            <FiChevronLeft />
+          <small className={showText4 ? "rotated1" : "rotate1"}>
+            <FiChevronRight />
           </small>
         </div>
         {showText4 ? <Text4 /> : null}
